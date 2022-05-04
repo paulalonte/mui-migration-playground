@@ -4,7 +4,7 @@ const theme = createTheme(
   adaptV4Theme({
     palette: {
       primary: {
-        main: "#ff0000",
+        main: "#1fc22d",
         light: "lightblue",
       },
       secondary: {

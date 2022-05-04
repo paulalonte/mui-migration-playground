@@ -1,10 +1,9 @@
-import { ThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import { ComponentType } from "react";
 
 import theme from "./theme";
 
 const withThemeProvider = (ComposedComponent: ComponentType) => {
-  console.log(ComposedComponent);
   const WithTheme = () => {
     return (
       <ThemeProvider theme={theme}>
